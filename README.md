@@ -3,6 +3,8 @@
 Prebuilt [ysync](https://github.com/yetidevworks/ysync) binaries for Apple Silicon and Intel Macs, and ARM64 and x86-64 Linux. Licensed under [MIT](LICENSE).
 
 ```sh
+# If your Homebrew requires tap trust, run this first:
+# brew trust --formula yetidevworks/ysync/ysync
 brew tap yetidevworks/ysync
 brew install yetidevworks/ysync/ysync
 ysync --version
