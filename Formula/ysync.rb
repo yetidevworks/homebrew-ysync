@@ -5,23 +5,23 @@ class Ysync < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.0/ysync-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0172014a72b9b9fbb6330158bf27cbe6503556e0ba0e64edf66c1b59e9848221"
+      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.1/ysync-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f140fd07d35dd6e61a30033764744dd06e16cc3fffbc6047cbd0d201160bd9f4"
     end
     on_intel do
-      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.0/ysync-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "316cdfb936e8230e09c9bf15eebb28105b22c91c8b3ff1de27d84e6f342f515e"
+      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.1/ysync-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "5db1a3a94ce80c7ec7e7cf30d6e13ff3b9bcdecb8cd9ed290868af88598b52be"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.0/ysync-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "87357619f5d38efd3882e04dc9f0a1ed032d5f3cb92ea1339950f06ca35816a6"
+      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.1/ysync-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d11ce6f17c68bce99a3d666ccca4374ab93cd0a04c39eb97ca799c9fd133c08c"
     end
     on_intel do
-      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.0/ysync-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f05fd56c8edc446e1edf64513e08c47d3296d124eefbfea3fa36b32ad64c44dd"
+      url "https://github.com/yetidevworks/ysync/releases/download/v0.4.1/ysync-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "38f4207487a33ce3ef8daed01ce97ed7089c6658ca6581fee16f1c159684d834"
     end
   end
 
